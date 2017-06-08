@@ -65,7 +65,7 @@ cat <<END_OF_TEMPLATE
   "requireSession" : false,
 
   /* Users may edit pads but not create new ones. Pad creation is only via the API. This applies both to group pads and regular pads. */
-  "editOnly" : false,
+  "editOnly" : true,
 
   /* if true, all css & js will be minified before sending to the client. This will improve the loading performance massivly,
      but makes it impossible to debug the javascript/css */
